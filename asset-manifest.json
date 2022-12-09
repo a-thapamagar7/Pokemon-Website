@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Pokemon-Website/static/css/main.146ef5d1.css",
+    "main.js": "/Pokemon-Website/static/js/main.82a6bbda.js",
+    "static/media/background1.jpg": "/Pokemon-Website/static/media/background1.00fa7166a42407d4776d.jpg",
+    "static/media/blog.png": "/Pokemon-Website/static/media/blog.b335728ca72a7c417123.png",
+    "static/media/pokeball.png": "/Pokemon-Website/static/media/pokeball.27a58f21d49110d03604.png",
+    "static/media/Lato-Regular.ttf": "/Pokemon-Website/static/media/Lato-Regular.9d883d540ee2b4de8024.ttf",
+    "static/media/Oswald-Regular.ttf": "/Pokemon-Website/static/media/Oswald-Regular.e815068d369177121fd8.ttf",
+    "static/media/pokedex.png": "/Pokemon-Website/static/media/pokedex.7533a7b2fcfda4911514.png",
+    "static/media/PKMN RBYGSC.ttf": "/Pokemon-Website/static/media/PKMN RBYGSC.1347322441bef0ee3709.ttf",
+    "static/media/poke.gif": "/Pokemon-Website/static/media/poke.dc18ea15581723b9ac4f.gif",
+    "index.html": "/Pokemon-Website/index.html",
+    "main.146ef5d1.css.map": "/Pokemon-Website/static/css/main.146ef5d1.css.map",
+    "main.82a6bbda.js.map": "/Pokemon-Website/static/js/main.82a6bbda.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.146ef5d1.css",
+    "static/js/main.82a6bbda.js"
+  ]
+}
