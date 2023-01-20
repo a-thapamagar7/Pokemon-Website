@@ -61,7 +61,7 @@ const App = () => {
     <div className="app">
       <NavBar Inputgain={Inputgain} />
       <Routes>
-        <Route path="/Pokemon-Website/" element={<PokemonNames pokemon={pokemon} input={input} />} />
+        <Route path="" element={<PokemonNames pokemon={pokemon} input={input} />} />
         <Route path="/form" element={<Form />} />
         <Route path="/about" element={<About />} />
         <Route path="/details/:name" element={<PokemonDetails />} />
