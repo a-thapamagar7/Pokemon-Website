@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("./images/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url("./images/Oswald-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Pokedex";
+  src: url("./images/PKMN\ RBYGSC.ttf");
+}
+
+.imgholder {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-image: url(./images/background1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+
+}
+
+.pokeimage {
+  width: 150px;
+  height: 150px;
+  margin-top: 10%;
+  margin-left: 12%;
+}
+
+
+.grid-item:hover .pokeimage {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+
+.grid-item:hover .imgholder {
+  background-image: url(./images/pokeball.png);
+  transition: 0.3s;
+}
+
+body {
+  background-color: white;
+}
+
+.grid-container {
+  margin-top: 180px;
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+  font-size: 25px;
+  font-family: "Calibri";
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #2e2b2a;
+  border-radius: 5%;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.pokeball {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+  background-image: contain;
+}
+
+.pokeball1 {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+  background-image: contain;
+}
+
+.gif {
+  width: 50px;
+  height: 50px;
+}
+
+.grid-item:hover .gif {
+  opacity: 100;
+  background-image: url("./images/poke.gif");
+  background-size: contain;
+}
+
+.navbar-nav>li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar-brand {
+  display: flex;
+  background-image: url("./images/Dexopedia-1\ \(4\)\ \(1\).png");
+  background-size: contain;
+  width: 120px;
+  height: 120px;
+}
+
+.navbar {
+  color: white;
+  font-family: "Lato-Regular";
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
+  width: 100%;
+  max-height: 110px;
+  position: fixed;
+  top: 0;
+}
+
+.search {
+  display: flex;
+  width: 315px;
+  height: 34px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.navbar-item {
+  cursor: pointer;
+}
+
+.search-button {
+  width: 54px;
+  height: 32px;
+  background-color: #ffffff;
+  border: 0px;
+}
+
+.search-field {
+  border: 0px;
+  width: 260px;
+  height: 32px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 1250px) {
+  .navbar {
+    color: white;
+    font-family: "Lato-Regular";
+    font-size: 18px;
+    width: 100%;
+    top: 0;
+    max-height: fit-content;
+  }
+
+  .grid-container {
+    grid-template-columns: 400px;
+  }
+
+  .search {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .navbar-nav>li {
+    padding-left: 18px;
+    padding-top: 8px;
+  }
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/details.jpg");
+  width: 100%;
+  background-attachment: fixed;
+  margin-top: 109px;
+  background-size: contain;
+}
+
+.detailsbg {
+  margin-top: 170px;
+  width: 500px;
+  height: 700px;
+  background-color: #ffffff;
+  border-radius: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.pokedimage {
+  width: 250px;
+  height: 250px;
+  top: 10%;
+  margin-top: -280px;
+}
+
+.health {
+  width: 200px;
+  background-color: #39e75f;
+  height: 6px;
+  border: solid 1px black;
+}
+
+.hp {
+  font-size: 15px;
+}
+
+.sum {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.sum1 {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sum1b {
+  border-right: 1px solid #e6e6e6;
+}
+
+.type1 {
+  font-size: 14px;
+}
+
+.description {
+  margin-top: 40px;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.d_heading {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9867C5;
+  font-family: "Lato-Regular";
+  color: white;
+  height: 30px;
+  width: 100px;
+}
+
+.d_body {
+  font-family: "Lato-Regular";
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+}
+
+.a_heading {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  font-family: "Lato-Regular";
+  color: white;
+  height: 30px;
+  width: 100px;
+}
+
+.a_body {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  column-gap: 10px;
+  row-gap: 10px;
+  font-family: "Oswald-Regular";
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #e6e6e6;
+}
+
+.move {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.movegrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.dmgimg {
+  width: 11px;
+  height: 11px;
+}
+
+.aboutbg {
+  margin-top: 140px;
+  background-color: #fffdf5;
+  width: 80%;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.aboutpoke {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.aboutheading {
+  display: flex;
+  font-size: 25px;
+  font-family: "Oswald-Regular";
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.author {
+  display: float;
+  flex-direction: row;
+  width: 100%;
+  background-color: aqua;
+  justify-content: flex-end;
+}
+
+.authorname {
+  display: float;
+  float: left;
+}
+
+.authordate {
+  display: float;
+  float: right;
+}
+
+.aboutblog {
+  width: 100%;
+  height: 390px;
+  background-size: cover;
+}
+
+.apis {
+  background-color: #44696C;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+.aboutdescription {
+  margin-top: 40px;
+}
