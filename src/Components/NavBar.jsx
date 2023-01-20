@@ -13,7 +13,7 @@ const NavBar = ({ Inputgain }) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav">
-                    <li className="navbar-item" onClick={() => navigate("/")}>Home</li>
+                    <li className="navbar-item" onClick={() => navigate("/Pokemon-Website/")}>Home</li>
                     <li className="navbar-item" onClick={() => navigate("/form")}>Form</li>
                     <li className="navbar-item" onClick={() => navigate("/about")}>About</li>
                     <li className="navbar-item">Contact</li>
