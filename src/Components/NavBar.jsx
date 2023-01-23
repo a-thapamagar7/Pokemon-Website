@@ -6,6 +6,7 @@ const NavBar = ({ Inputgain }) => {
     const navigate = useNavigate()
 
     return (
+        //navbar
         <nav className="navbar navbar-expand-sm bg-danger">
             <div className="navbar-brand"></div>
             <button className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -13,7 +14,7 @@ const NavBar = ({ Inputgain }) => {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <ul className="navbar-nav">
-                    <li className="navbar-item" onClick={() => navigate("")}>Home</li>
+                    <li className="navbar-item nav_home" onClick={() => navigate("/Pokemon-Website/")}>Home</li>
                     <li className="navbar-item"><Searchbar Inputgain={Inputgain} /></li>
                 </ul>
             </div>

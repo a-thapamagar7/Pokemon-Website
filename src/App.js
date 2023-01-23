@@ -5,9 +5,7 @@ import PokemonNames from "./Components/PokemonNames";
 import './App.css';
 import NavBar from "./Components/NavBar"
 import { Route, Routes } from "react-router-dom";
-import Form from "./Components/Form"
 import PokemonDetails from "./Components/PokemonDetails";
-import About from "./Components/About";
 
 const App = () => {
   const url = "https://pokeapi.co/api/v2/pokemon?limit=151";
@@ -61,9 +59,7 @@ const App = () => {
     <div className="app">
       <NavBar Inputgain={Inputgain} />
       <Routes>
-        <Route path="" element={<PokemonNames pokemon={pokemon} input={input} />} />
-        <Route path="/form" element={<Form />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/Pokemon-Website/" element={<PokemonNames pokemon={pokemon} input={input} />} />
         <Route path="/details/:name" element={<PokemonDetails />} />
       </Routes>
     </div>

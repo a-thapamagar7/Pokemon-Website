@@ -132,6 +132,11 @@ body {
   cursor: pointer;
 }
 
+.nav_home:hover {
+  text-decoration: underline;
+  transition: 0.4s;
+}
+
 .search-button {
   width: 54px;
   height: 32px;
